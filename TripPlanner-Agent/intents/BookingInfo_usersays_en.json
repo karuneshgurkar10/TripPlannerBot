@@ -1,0 +1,213 @@
+[
+  {
+    "id": "df8c3d4c-9ab0-47da-b858-89cb31933066",
+    "data": [
+      {
+        "text": "give my ",
+        "userDefined": false
+      },
+      {
+        "text": "flight",
+        "alias": "info_type",
+        "meta": "@info_type",
+        "userDefined": false
+      },
+      {
+        "text": " timings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "9c371e0b-4855-4553-a784-e43c43d9e653",
+    "data": [
+      {
+        "text": "when is my ",
+        "userDefined": false
+      },
+      {
+        "text": "cab",
+        "alias": "info_type",
+        "meta": "@info_type",
+        "userDefined": false
+      },
+      {
+        "text": " is scheduled",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "87a76589-9e86-43ba-ae5f-7ad1cf069fb3",
+    "data": [
+      {
+        "text": "my travel information",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "df5e57d7-38ce-42f6-bf49-fb09260a03b2",
+    "data": [
+      {
+        "text": "give my travelling details",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "21d71666-12b2-4733-b58c-191585424a82",
+    "data": [
+      {
+        "text": "give my ",
+        "userDefined": false
+      },
+      {
+        "text": "room",
+        "alias": "info_type",
+        "meta": "@info_type",
+        "userDefined": false
+      },
+      {
+        "text": " info",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "5ebca6b0-86de-4629-ac12-50b1127c2e14",
+    "data": [
+      {
+        "text": "give my ",
+        "userDefined": false
+      },
+      {
+        "text": "cab",
+        "alias": "info_type",
+        "meta": "@info_type",
+        "userDefined": false
+      },
+      {
+        "text": " info",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "da8cd4f0-6135-49be-a868-adb32008e3e6",
+    "data": [
+      {
+        "text": "Is my ",
+        "userDefined": false
+      },
+      {
+        "text": "room",
+        "alias": "info_type",
+        "meta": "@info_type",
+        "userDefined": false
+      },
+      {
+        "text": " boooked?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6231cbf8-3056-4278-b7d2-e33499423bf0",
+    "data": [
+      {
+        "text": "When is ",
+        "userDefined": false
+      },
+      {
+        "text": "cab",
+        "alias": "info_type",
+        "meta": "@info_type",
+        "userDefined": false
+      },
+      {
+        "text": " is booked",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f09d531d-995b-4239-aed5-650507813f40",
+    "data": [
+      {
+        "text": "Give my ",
+        "userDefined": false
+      },
+      {
+        "text": "flight",
+        "alias": "info_type",
+        "meta": "@info_type",
+        "userDefined": false
+      },
+      {
+        "text": " details",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "45b5d14d-0155-43fe-830a-8bc538d3a953",
+    "data": [
+      {
+        "text": "When and where my ",
+        "userDefined": false
+      },
+      {
+        "text": "room",
+        "alias": "info_type",
+        "meta": "@info_type",
+        "userDefined": true
+      },
+      {
+        "text": " has been booked",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "52895e76-ee82-4629-9fbe-be1bb2976eda",
+    "data": [
+      {
+        "text": "When is  my ",
+        "userDefined": false
+      },
+      {
+        "text": "flight",
+        "alias": "info_type",
+        "meta": "@info_type",
+        "userDefined": true
+      },
+      {
+        "text": " scheduled",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

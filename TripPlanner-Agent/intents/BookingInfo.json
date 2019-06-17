@@ -1,0 +1,52 @@
+{
+  "id": "43089aa6-2372-4458-b614-80d8349ad119",
+  "name": "BookingInfo",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "BookingInfo-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "give",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "when",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "59601dc7-0c0d-4ce9-b368-3e72cdfba6ae",
+          "required": false,
+          "dataType": "@info_type",
+          "name": "info_type",
+          "value": "$info_type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please provide your contact number?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

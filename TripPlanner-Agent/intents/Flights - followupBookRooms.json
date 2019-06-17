@@ -1,0 +1,95 @@
+{
+  "id": "3601f793-cec6-43c4-8df3-ce729349875f",
+  "parentId": "95498ed4-e769-441f-90bd-53a67490a99b",
+  "rootParentId": "95498ed4-e769-441f-90bd-53a67490a99b",
+  "name": "Flights - followupBookRooms",
+  "auto": true,
+  "contexts": [
+    "Flights-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Flights.followupBookRooms",
+      "affectedContexts": [
+        {
+          "name": "Flights-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a43008b4-8039-4ffd-aca0-52ef9e318b1c",
+          "required": false,
+          "dataType": "@room_type",
+          "name": "room_type",
+          "value": "$room_type",
+          "isList": false
+        },
+        {
+          "id": "d0cf4684-52d3-4526-a584-5b835c1bf4a9",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [],
+          "defaultValue": "#flights-followup.date",
+          "isList": false
+        },
+        {
+          "id": "5f4265de-36c2-4fe0-b553-3c3eb006acd6",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "prompts": [],
+          "defaultValue": "#flights-followup.geo-city1",
+          "isList": false
+        },
+        {
+          "id": "3e5458c9-72d7-46e3-9164-7e76f9638b2e",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "name",
+          "value": "$name",
+          "prompts": [],
+          "defaultValue": "#flights-followup.name",
+          "isList": false
+        },
+        {
+          "id": "d1188dd1-5cb2-470e-8995-4b85327fc946",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "phoneNumber",
+          "value": "$phoneNumber",
+          "prompts": [],
+          "defaultValue": "#flights-followup.phoneNumber",
+          "isList": false
+        },
+        {
+          "id": "a92e47c9-c885-4616-9416-779ba6025e87",
+          "dataType": "@info_type",
+          "name": "info_type",
+          "value": "$info_type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "value": "car",
+    "synonyms": [
+      "cab",
+      "car",
+      "taxi",
+      "vehicle"
+    ]
+  },
+  {
+    "value": "flight",
+    "synonyms": [
+      "flight",
+      "plane"
+    ]
+  },
+  {
+    "value": "room",
+    "synonyms": [
+      "hotel",
+      "lodge",
+      "room"
+    ]
+  }
+]

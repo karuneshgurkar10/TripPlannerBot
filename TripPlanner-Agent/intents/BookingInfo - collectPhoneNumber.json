@@ -1,0 +1,62 @@
+{
+  "id": "2067e8c2-d8fd-4d40-ac36-b1a5e787880b",
+  "parentId": "43089aa6-2372-4458-b614-80d8349ad119",
+  "rootParentId": "43089aa6-2372-4458-b614-80d8349ad119",
+  "name": "BookingInfo - collectPhoneNumber",
+  "auto": true,
+  "contexts": [
+    "BookingInfo-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BookingInfo.collectPhoneNumber",
+      "affectedContexts": [
+        {
+          "name": "BookingInfo-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "bbeb11ca-aa12-4739-86ba-4b9160c26c2f",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "phone-number",
+          "value": "$phone-number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide your contact number?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "046287dd-af1f-488a-bf9e-cede10f749ba",
+          "dataType": "@info_type",
+          "name": "info_type",
+          "value": "$info_type",
+          "prompts": [],
+          "defaultValue": "#BookingInfo-followup.info_type"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": []
+}

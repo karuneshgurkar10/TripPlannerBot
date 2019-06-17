@@ -1,0 +1,23 @@
+[
+  {
+    "value": "multiple-stops",
+    "synonyms": [
+      "multiple-stops"
+    ]
+  },
+  {
+    "value": "non-stop",
+    "synonyms": [
+      "continual",
+      "non-stop",
+      "uninterrupted",
+      "without pause"
+    ]
+  },
+  {
+    "value": "single-stop",
+    "synonyms": [
+      "single-stop"
+    ]
+  }
+]

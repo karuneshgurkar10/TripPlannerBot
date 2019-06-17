@@ -1,0 +1,121 @@
+[
+  {
+    "id": "3f10ffc7-9a72-4e5b-939b-0cab1103114f",
+    "data": [
+      {
+        "text": "Book a ",
+        "userDefined": false
+      },
+      {
+        "text": "deluxe",
+        "alias": "room_type",
+        "meta": "@room_type",
+        "userDefined": false
+      },
+      {
+        "text": " room in ",
+        "userDefined": false
+      },
+      {
+        "text": "Chicago",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "November 28th, 2017",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "92bb1c58-6309-4963-b75f-3480acdb63b8",
+    "data": [
+      {
+        "text": "Book a ",
+        "userDefined": false
+      },
+      {
+        "text": "king",
+        "alias": "room_type",
+        "meta": "@room_type",
+        "userDefined": false
+      },
+      {
+        "text": " in Chennai for ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "feea6217-54c0-475d-93df-51be37e79f1c",
+    "data": [
+      {
+        "text": "Book a ",
+        "userDefined": false
+      },
+      {
+        "text": "queen",
+        "alias": "room_type",
+        "meta": "@room_type",
+        "userDefined": false
+      },
+      {
+        "text": " sized room in ",
+        "userDefined": false
+      },
+      {
+        "text": "Bangalore",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "18cb3976-a62e-4c38-b224-c646e2548f29",
+    "data": [
+      {
+        "text": "Book a room in ",
+        "userDefined": false
+      },
+      {
+        "text": "New York",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "57b3fa11-5876-405d-a6f5-979c3d02137c",
+    "data": [
+      {
+        "text": "Book a room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

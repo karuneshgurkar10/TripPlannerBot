@@ -1,0 +1,125 @@
+{
+  "id": "95498ed4-e769-441f-90bd-53a67490a99b",
+  "name": "Flights",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.bookFlights",
+      "affectedContexts": [
+        {
+          "name": "Flights-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a70f228a-b975-4e3d-b4e7-18c0586af55f",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What date do you want me to book tickets for?"
+            }
+          ],
+          "isList": true
+        },
+        {
+          "id": "0f269bfc-78f2-40e2-b51d-cfcfb28b1636",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Where are you flying from?"
+            }
+          ],
+          "isList": true
+        },
+        {
+          "id": "51e6cdbd-d36d-47d4-a1bd-4db8aaa30047",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city1",
+          "value": "$geo-city1",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Where are you flying to?"
+            },
+            {
+              "lang": "en",
+              "value": "What\u0027s your destination?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "93543683-9fd8-4672-8e5f-ed2c28682003",
+          "required": false,
+          "dataType": "@flight_type",
+          "name": "flight_type",
+          "value": "$flight_type",
+          "isList": false
+        },
+        {
+          "id": "834e69fc-247b-4bf8-af10-de1f59d4ff86",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "name",
+          "value": "$name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide your name?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "618d301e-a4b8-4849-a154-fd71e10112d6",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "phoneNumber",
+          "value": "$phoneNumber",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide your phone number?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "dc7e9adb-0c3d-41b4-86b7-c7671b909316",
+          "required": false,
+          "dataType": "@info_type",
+          "name": "info_type",
+          "value": "$info_type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

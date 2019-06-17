@@ -1,0 +1,288 @@
+[
+  {
+    "id": "df3f9823-37bc-4560-aa35-424c1aa604ee",
+    "data": [
+      {
+        "text": "book a ",
+        "userDefined": false
+      },
+      {
+        "text": "cab",
+        "alias": "info_type",
+        "meta": "@info_type",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "at 6 pm",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "eb5cc26d-3d7d-4594-ab9d-5a423a794538",
+    "data": [
+      {
+        "text": "book a ",
+        "userDefined": false
+      },
+      {
+        "text": "cab",
+        "alias": "info_type",
+        "meta": "@info_type",
+        "userDefined": false
+      },
+      {
+        "text": " at ",
+        "userDefined": false
+      },
+      {
+        "text": "12 clock",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "614aa6bc-8d33-4789-8723-0ac1ad938f80",
+    "data": [
+      {
+        "text": "book a ",
+        "userDefined": false
+      },
+      {
+        "text": "cab",
+        "alias": "info_type",
+        "meta": "@info_type",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "at 12 pm",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "93b02666-c1f4-410f-94df-2fc385484326",
+    "data": [
+      {
+        "text": "book a ",
+        "userDefined": false
+      },
+      {
+        "text": "cab",
+        "alias": "info_type",
+        "meta": "@info_type",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ea0913ca-cd03-4e15-b728-0da89019f239",
+    "data": [
+      {
+        "text": "BOOK A ",
+        "userDefined": false
+      },
+      {
+        "text": "CAB",
+        "alias": "info_type",
+        "meta": "@info_type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "d74fb998-2cd1-4730-bf13-33be1aa8dc56",
+    "data": [
+      {
+        "text": "search cab for me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "69e608b9-9623-414f-b6ab-149cbb3f6d95",
+    "data": [
+      {
+        "text": "get me cab",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "88e2b21d-5ca7-497b-9ce1-ed4a644957c3",
+    "data": [
+      {
+        "text": "book a cab for me from ",
+        "userDefined": false
+      },
+      {
+        "text": "new york",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " airport",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "be4b9da2-c9f6-42a2-acda-6ca0e9ea88c2",
+    "data": [
+      {
+        "text": "Book a ",
+        "userDefined": false
+      },
+      {
+        "text": "convertible",
+        "alias": "car_type",
+        "meta": "@car_type",
+        "userDefined": true
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "Seattle",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "d23a424b-65fa-41ac-88b0-eecfa664193f",
+    "data": [
+      {
+        "text": "Reserve a ",
+        "userDefined": false
+      },
+      {
+        "text": "sean",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "Bangalore",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "on December 10th, 2017",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "7bc9dd9e-a260-44ff-8f9d-53ad7b024ed3",
+    "data": [
+      {
+        "text": "Reserve a car in ",
+        "userDefined": false
+      },
+      {
+        "text": "Bangalore",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "Friday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "a3120c7d-45af-49bb-ace3-a448b02f6b5f",
+    "data": [
+      {
+        "text": "Book a car in ",
+        "userDefined": false
+      },
+      {
+        "text": "San Francisco",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "17087d80-43cd-4442-95ff-8343b4d3f70c",
+    "data": [
+      {
+        "text": "Book a car",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

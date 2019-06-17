@@ -1,0 +1,90 @@
+{
+  "id": "7d7d9436-09fb-4c4a-801c-708082062d54",
+  "name": "Rooms",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1ff87203-79bd-445b-bc25-3d142de49bb9",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which city do you need this booking for?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "b89f69cc-edbe-42d8-a10c-ed5ea597b177",
+          "required": false,
+          "dataType": "@room_type",
+          "name": "room_type",
+          "value": "$room_type",
+          "isList": false
+        },
+        {
+          "id": "b04f2a19-0c98-4be8-935d-0194a2afa6ae",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What date do you want the room for?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "ecec1884-209f-497f-8467-6869103e6ba3",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "name",
+          "value": "$name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide your name?"
+            }
+          ]
+        },
+        {
+          "id": "f34c62a4-5b40-4c66-95ec-d3bb3c0aab5d",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "phoneNumber",
+          "value": "$phoneNumber",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide your contact number?"
+            }
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

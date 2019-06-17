@@ -1,0 +1,365 @@
+[
+  {
+    "id": "d37b9a0f-2f46-4a44-9240-a3c4fb95d27a",
+    "data": [
+      {
+        "text": "book a ",
+        "userDefined": false
+      },
+      {
+        "text": "plane",
+        "alias": "info_type",
+        "meta": "@info_type",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a105d77a-3f84-414b-a45c-04bbba368d84",
+    "data": [
+      {
+        "text": "book a ",
+        "userDefined": false
+      },
+      {
+        "text": "plane",
+        "alias": "info_type",
+        "meta": "@info_type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "7fc7ffb4-974d-404b-822b-d1220cc84f4f",
+    "data": [
+      {
+        "text": "book a ",
+        "userDefined": false
+      },
+      {
+        "text": "plane",
+        "alias": "info_type",
+        "meta": "@info_type",
+        "userDefined": false
+      },
+      {
+        "text": " from ",
+        "userDefined": false
+      },
+      {
+        "text": "mysuru",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "bengaluru",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "on 20 june",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c491cf76-6077-44ad-97a5-22a589d97b75",
+    "data": [
+      {
+        "text": "book a flight for tomorrow and my phone number is ",
+        "userDefined": false
+      },
+      {
+        "text": "9945434992",
+        "alias": "phoneNumber",
+        "meta": "@sys.phone-number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "05236702-3422-4e05-a8d4-e86fa01420fb",
+    "data": [
+      {
+        "text": "i am ",
+        "userDefined": false
+      },
+      {
+        "text": "karunesh",
+        "alias": "name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      },
+      {
+        "text": " and book a flight",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b27c735c-d33d-45e5-8060-ce81bca46015",
+    "data": [
+      {
+        "text": "booke me flight to ",
+        "userDefined": false
+      },
+      {
+        "text": "bangalore",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "2891006c-8da4-4851-918a-7e9ee14ea58d",
+    "data": [
+      {
+        "text": "book a flight for  ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "Bangalore",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b0d647e1-7fb8-40b1-9f5c-49bdc3d5cd39",
+    "data": [
+      {
+        "text": "Non-stop",
+        "alias": "flight_type",
+        "meta": "@flight_type",
+        "userDefined": false
+      },
+      {
+        "text": " flights from ",
+        "userDefined": false
+      },
+      {
+        "text": "Delhi",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "Chennai",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "on November 20th, 2017",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "557597f4-966b-455e-85c4-39877ab4c264",
+    "data": [
+      {
+        "text": "Flight from ",
+        "userDefined": false
+      },
+      {
+        "text": "Delhi",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "Chennai",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "on November 20th, 2017",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b077e1a7-9168-4bc5-858a-577208564c2c",
+    "data": [
+      {
+        "text": "Book a flight from ",
+        "userDefined": false
+      },
+      {
+        "text": "Bangalore",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "Mumbai",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2
+  },
+  {
+    "id": "5edd5a27-5ff5-4ad9-9b68-c001f1d13005",
+    "data": [
+      {
+        "text": "Reserve a flight for ",
+        "userDefined": false
+      },
+      {
+        "text": "next Tuesday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "98eaf823-e893-44b4-80c0-3005998044f9",
+    "data": [
+      {
+        "text": "Book a flight for ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "70cda6cb-9e12-42f6-94bf-ac4d39871b89",
+    "data": [
+      {
+        "text": "Book a flight for ",
+        "userDefined": false
+      },
+      {
+        "text": "November 20th, 2017",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "cdec0a0c-c702-45d5-a4ad-0c32c4b90df0",
+    "data": [
+      {
+        "text": "Book flight tickets",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "13c84455-aec5-4096-8735-091f79a155aa",
+    "data": [
+      {
+        "text": "Book a flight",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "id": "c9b88df8-d990-4039-9b15-919d5d43e8ba",
+  "parentId": "95498ed4-e769-441f-90bd-53a67490a99b",
+  "rootParentId": "95498ed4-e769-441f-90bd-53a67490a99b",
+  "name": "Flights - no",
+  "auto": true,
+  "contexts": [
+    "Flights-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Flights.Flights-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Okay, I canceled your booking. Is there anything else I can help you with?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1531859391,
+  "fallbackIntent": false,
+  "events": []
+}

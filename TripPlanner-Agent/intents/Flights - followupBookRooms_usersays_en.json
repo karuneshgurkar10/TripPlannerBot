@@ -1,0 +1,83 @@
+[
+  {
+    "id": "48ed269d-01a7-45af-94dc-3c65d0c78e18",
+    "data": [
+      {
+        "text": "book ",
+        "userDefined": false
+      },
+      {
+        "text": "room",
+        "alias": "info_type",
+        "meta": "@info_type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a89a349b-7284-416f-b254-f5b7d32adcbf",
+    "data": [
+      {
+        "text": "Reserve room also",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "144493fa-2542-4fd4-ad9b-5918d2251938",
+    "data": [
+      {
+        "text": "book ",
+        "userDefined": false
+      },
+      {
+        "text": "room",
+        "alias": "info_type",
+        "meta": "@info_type",
+        "userDefined": false
+      },
+      {
+        "text": " too",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "494a8a2c-1541-4957-9be4-e0f38150f957",
+    "data": [
+      {
+        "text": "book ",
+        "userDefined": false
+      },
+      {
+        "text": "deluxe",
+        "alias": "room_type",
+        "meta": "@room_type",
+        "userDefined": false
+      },
+      {
+        "text": " room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "23c85f4f-eb95-4d6b-b9e1-d34014289a9f",
+    "data": [
+      {
+        "text": "book me room too",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  }
+]

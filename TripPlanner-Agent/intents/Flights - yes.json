@@ -1,0 +1,39 @@
+{
+  "id": "59a734fd-f379-4a72-8c0a-e5af9e82c29f",
+  "parentId": "95498ed4-e769-441f-90bd-53a67490a99b",
+  "rootParentId": "95498ed4-e769-441f-90bd-53a67490a99b",
+  "name": "Flights - yes",
+  "auto": true,
+  "contexts": [
+    "Flights-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Flights.Flights-yes",
+      "affectedContexts": [
+        {
+          "name": "Flights-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1531867231,
+  "fallbackIntent": false,
+  "events": []
+}

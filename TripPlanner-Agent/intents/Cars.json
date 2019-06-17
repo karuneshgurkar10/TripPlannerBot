@@ -1,0 +1,115 @@
+{
+  "id": "d5cd81c0-e4d5-4871-b6dc-9d40eaf1852f",
+  "name": "Cars",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.bookCar",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "aff6b204-7c6f-4412-8f7e-2355998fc442",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which city do you need this booking for?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "4a4ae400-0a45-4828-afc1-84708d556ad3",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What date do you want the car?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "2835f2e6-4a22-4f97-9b28-125d3c603b4b",
+          "required": true,
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What time you want cab to be booked?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "6f3f4087-3679-4db2-aa4a-18dd293a7b33",
+          "required": true,
+          "dataType": "@car_type",
+          "name": "car_type",
+          "value": "$car_type",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What kind of car do you want? I have sedans, convertibles, hatchbacks, SUVs and compacts."
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "e68f1a17-0df9-4cc3-b219-eaa1c1d7ecb7",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "name",
+          "value": "$name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide you name?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "ea89c3ff-29ad-457f-a4e6-b2bfe5b44c6c",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "phoneNumber",
+          "value": "$phoneNumber",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide your contact number"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "0c9a3954-14ec-49c6-aa7c-cd4b03a5201c",
+          "required": false,
+          "dataType": "@info_type",
+          "name": "info_type",
+          "value": "$info_type",
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
